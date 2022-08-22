@@ -7,7 +7,7 @@ defmodule LiveViewTodos.Todos.Todo do
     field :title, :string
 
     timestamps()
-end
+  end
 
   @doc false
   def changeset(todo, attrs) do

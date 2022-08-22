@@ -20,7 +20,7 @@ defp broadcast_change({:ok, result}, event) do
   {:ok, result}
 end
 
-  @doc """
+@doc """
   Returns the list of todos.
 
   ## Examples
@@ -117,4 +117,6 @@ end
   def change_todo(%Todo{} = todo, attrs \\ %{}) do
     Todo.changeset(todo, attrs)
   end
+
+
 end
